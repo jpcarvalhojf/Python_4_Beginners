@@ -81,3 +81,24 @@ print('DivRound: ' + str(divRound))
 print('Exponential: ' + str(exponentOperator))
 print('x: ' + str(x))
 '''
+
+#COMPARISON OPERATOS
+a = 2
+b = 7
+x = a > b
+print("A greater than B: "+ str(x))
+
+y = a < b
+print("A less than B: "+ str(y))
+
+z = a != b
+print("A different than B: "+ str(z))
+
+k = a >= b
+print("A greater or equal than B: "+ str(k))
+
+k = a <= b
+print("A less or equal than B: "+ str(k))
+
+w = a == b
+print("A equal B: "+ str(w))
