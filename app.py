@@ -243,5 +243,13 @@ for number in range(2,17,2):
 '''
 
 # TUPLES
+#are imutables unchangeble
+numbersRange = range(10,20,2)
+numbersTuples = (1,2,3,4,9,10,10, numbersRange)
+
+print(numbersTuples.count(10))#count how many numbers 10 there are in row
+
+
+
 
 
